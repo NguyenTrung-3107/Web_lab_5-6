@@ -1,0 +1,223 @@
+@font-face{
+    font-family: "Gilroy";
+    src:url("/Users/ivan/Library/Fonts/gilroy-bold.ttf")
+}
+@font-face{
+    font-family: "GilroyMed";
+    src:url("/Users/ivan/Library/Fonts/gilroy-medium.ttf")
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.shellHat{
+    display: flex;
+    flex-direction: column;
+}
+.hat{
+    font-family: "Gilroy";
+    display: flex;
+    padding-right: 18.4%;
+    padding-left: 18.4%;
+    font-size: 18px;
+    justify-content: space-between;
+    padding-top:2.2%;
+    padding-bottom: 2%;
+}
+.hatBut{
+    color:grey;
+}
+.hatBut:nth-child(1){
+    color: black;
+}
+.vector{
+    display: flex;
+    justify-content: center;
+}
+.laneVect{
+    width:62.8%;
+    height: 0;
+    border: 1px solid black;
+}
+.intro{
+    display: flex;
+    padding-right: 18.4%;
+    padding-left: 18.4%;
+    padding-bottom: 2%;
+}
+.name{
+    line-height: 58px;
+    font-family: "Gilroy";
+    font-size: 48px;
+    width: min-content;
+    margin-top: 2.7%;
+    
+}
+.spec{
+    font-family: "GilroyMed";
+    margin-left: 30.8%;
+    margin-top: 8.9%;
+    font-size: 18px;
+    width: 17%;
+}
+.langShell{
+    margin-left: auto;
+    font-family: "Gilroy";
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 4.7%;
+    margin-bottom: 1.8%;
+}
+.lang{
+    writing-mode: vertical-lr;
+    transform: scale(-1);
+}
+.lang:nth-child(1){
+    color:grey;
+}
+.shelProfImage{
+    display: flex;
+    justify-content: center;
+}
+.profileImg{
+    width:62.6%;
+    
+}
+.aboutMe{
+    font-family: "GilroyMed";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 7%;
+    background:#F6F6F6;
+    height: 506px;
+}
+H1{
+    padding-bottom: 1.13%;
+    font-family: "Gilroy";
+    font-size: 34px;
+    line-height: 42px;
+}
+
+
+.skills{
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    font-family: "GilroyMed";
+    height:610px;
+}
+H2{
+    font-family: "Gilroy";
+    font-size: 34px;
+    padding-bottom: 4.6%;
+}
+.programsShell{ 
+    display: flex;
+    margin-top: 5.53%;
+    flex-direction: row;
+    padding-left: 15%;
+    padding-right: 15%;
+    justify-content:space-between;
+}
+.progImage{
+    width: 80px;
+    height: 80px;
+}
+.star{
+    width:25px;
+    height: 25px;
+}
+.starLine{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.figcaptProg{
+    font-family: "Gilroy";
+    margin-top: 24px;
+    color: #828282;
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+.programm{
+    display: flex;
+    flex-direction:column;
+}
+.fugureP{
+    width: 18.71%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.portfolio{
+    text-align: center;
+    background: #F6F6F6;
+}
+H3{
+    font-family: "Gilroy";
+    font-size: 34px;
+    padding-top: 8%;
+    padding-bottom: 3.13%;
+}
+.portImage{
+    width:62.6%;
+}
+.figcaptPort{
+    margin-top: 44px;
+    text-decoration-line: underline;
+    font-size: 18px;
+    font-family: "GilroyMed";
+}
+.figurePort{
+    padding-bottom: 99px;
+}
+footer{
+    font-family: "GilroyMed";
+    text-align: center;
+}
+H4{
+    font-family: "Gilroy";
+    font-size:34px;
+    padding-bottom: 20px;
+    padding-top: 114px;
+}
+
+.button{
+    font-family: "Gilroy";
+    margin-top:30px;
+    width:180px;
+    height: 42px;
+    background: black;
+    border-radius: 20px 20px 20px 20px;
+    color:white;
+    font-size: 18px;
+    border: none;
+}
+button:active{
+    transform: scale(0.8);
+}
+.logos{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30.13%;
+    margin-top: 85px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 45px;
+}
+.asoc{
+    width: 40px;
+    height: 40px;
+
+}
+.bumbo{
+    color:grey;
+    padding-bottom: 123px;
+}

@@ -1,0 +1,115 @@
+@media screen and (max-device-width:450px) {
+    .shellHat{
+        display: none;
+        visibility: hidden;
+    }
+    .intro{
+        flex-direction: column;
+        padding-right: 7.4%;
+        padding-left: 7.4%;
+        padding-top:2%;
+    }
+
+    .name{
+        margin-top: 20%;
+    }
+    .spec{
+        margin-left: 0;
+        margin-top: 2%;
+        width:100%;
+    }
+    .langShell{
+        display: none;
+        visibility: hidden;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        width: min-content;
+        position: relative;
+        left: 88.8%;
+        top:-143px;
+    }
+    .profileImg{
+        display: none;
+        visibility: hidden;
+    }
+    .profileImg2{
+        margin-top: 2%;
+        height: auto;
+        width:85.2%;
+    }
+    .aboutMe{
+        display: none;
+        visibility: hidden;
+    }
+    .aboutMe2{
+        font-family: "GilroyMed";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 28%;
+        background:#F6F6F6;
+        height: 425px;
+    }
+    H1{
+        margin-top: 5%;
+        padding-bottom: 9.13%;
+        
+    }
+    H2{
+        
+        padding-bottom: 11.6%;
+    }
+    .skills{
+        height: 1421px;
+    }
+    .programsShell{
+        align-items: center;
+        flex-direction: column;
+        margin-top: 18%;
+    }
+    .fugureP{
+        width:65.71%;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 81px;
+    }
+    .fugureP:nth-child(4){
+        padding-bottom: 0;
+    }
+    .logos{
+        
+        width: 80.13%;
+        
+    }
+    H4{
+        padding-bottom: 27px;
+        padding-top: 82px;
+    }
+    .button{
+        margin-top: 51px;
+        width:316px;
+        
+    }
+    H3{
+        padding-top: 81px;
+        padding-bottom: 64px;
+    }
+}
+@media screen and (min-device-width:451px){
+    .menu{
+        display: none;
+        visibility: hidden;
+    }
+    .profileImg2{
+        display: none;
+        visibility: hidden;
+    }
+    .aboutMe2{
+        display: none;
+        visibility: hidden;
+    }
+}
